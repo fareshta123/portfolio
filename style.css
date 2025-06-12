@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #FFE1E0;
+    color: #333;
+}
+a{
+    text-decoration:underline;
+    color: inherit;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #6a5559;
+    transition: color 0.3s;
+}
+header{
+    background-color: #7F55B1;
+    color: white;
+    padding: 1rem 0;
+
+    
+}
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-weight: 800;
+    font-size:1.5rem;
+}
+nav ul{
+ list-style: none;
+ display: flex;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.info-cetion{
+    background-color:#a965af;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    animation: fadeIn 2s ease-out;
+}
+.info-cetion img{
+    border-radius: 50%;
+    width: 150px;
+    border: solid;
+    border-color: #7F55B1;
+    margin-bottom: 1rem;
+
+}
+.cetion{
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.color{
+    background-color: #9B7EBD;
+}
+.section-skill{
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.section-habit{
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.section-habit li{
+    background-color:#f8dce1;
+    padding: 0.5rem,1rem;
+    border-radius: 50%;
+    width: 170px;
+    border: solid;
+    border-color: aliceblue;
+    text-align: center;
+    
+}
+.section-skill li{
+    background-color:#f8dce1;
+    padding: 0.5rem,1rem;
+    border-radius: 50%;
+    width: 170px;
+    border: solid;
+    border-color: aliceblue;
+    text-align: center;
+
+}
+.info-list{
+    display:block;
+   
+    gap: 2rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.collomn{
+background-color: rgb(196, 201, 206);
+border:5px solid #f8dce1;
+padding: 1.5rem;
+border-radius: 8px;
+box-shadow: 0 4px 12px rgba(rgb(152, 143, 143), rgb(102rgb(139, 139, 188)5, 102), blue, alpha);
+}
+.collomn h3{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+
+}
+footer{
+    background-color: #c4a9e3;
+    color: azure;
+    text-align: center;
+    padding: 2rem 1rem;
+
+}
+.socila-media{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #6a5559;
+    transition: color 0.3s;
+}
+.socila-media a:hover{
+    color: #7030be;
+
+
+}
+a:hover{
+    color: #7030be;
+    
+}
+
+
+
+
